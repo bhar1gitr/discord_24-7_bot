@@ -26,7 +26,7 @@ console.log(msg.content);
 });
 
 
-const token  ="MTA1NTM2NjY4OTEzMjM4ODQ0Mw.GcKn9I.DopxOvWXn4CrPgqUbaiiXAauJsF-iIoGHLGrr0";
+// const token  ="MTA1NTM2NjY4OTEzMjM4ODQ0Mw.GcKn9I.DopxOvWXn4CrPgqUbaiiXAauJsF-iIoGHLGrr0";
 
 // const token = "MTA1NTM3NDE3NzM3MDExMjAwMA.G_3AaD.8oAYgCUCwxFOfS1QSYJBwALFBpmlHrXOLnMSz8";
-client.login(token);
+client.login(process.env.TOKEN);
